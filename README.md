@@ -3,10 +3,54 @@
 ----
 This site was built off of the [minimal](https://github.com/pages-themes/minimal) theme for [Jekyll](https://jekyllrb.com/) with support for Github pages.
 
-## Compilation
+# Adding content
+Most pages are templated dynamically with `.yml` files containting the post content according to some schema. However, some pages (that I don't anticipate changing too often) are hardcoded in good 'ol `markdown`. 
+
+### Coursework
+I anticipate that this will be the most updated page.
+
+##### Updating Current Course Year
+The current term is stored in `_config.yml`. This probably isn't the best way to manage this, but every semester, update `currentterm` to the correct term.
+
+##### Adding Courses
+- All course data is stored in `_data/coursework.yml`
+- Add new courses to the bottom of the file according to the following schema:
+```yml
+code : KU Class code
+name : Course number and title
+term : term course was completed
+desc : short description
+link : link to more more information (optional)
+hnrs : bool - true if honors course (optional)
+``` 
+##### Adding new Category
+`/coursework.html` renders in an alternate template from the rest of the site, `layouts/coursework.html`. Adding a new category is fairly simple:
+- Create new page with `layout: coursework`
+- Use the following template, replating `[CONDITION]` with a logical expression:
+```liquid
+{% for course in site.data.coursework reversed %}
+    {% if [CONDITION] %}
+
+{% include course-list.md %}
+
+    {% endif %}
+{% endfor %}
+```
+
+### Projects
+This section is formatted more like a blog. The logic hasn't been fully fleshed out yet -- there is no way to access an individual project's page or add images.
+
+The current schema for `_data/projects.yml` is:
+```yml
+name: Title of project
+url: Link for [More Info] button
+description: Project details
+```
+
+# Compilation
 This site will be compiled and go live automatically from the master branch.  
 
-##### For local development / compilation:
+### Local Development + Compilation:
 1. Clone repo: `git clone https://github.com/jamesmendel/jamesmendel.github.io`
 2. Enter directory: `cd jamesmendel.github.io`
 3. Run server: `bundle exec jekyll serve --force-polling`
