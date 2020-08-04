@@ -9,10 +9,10 @@ Most pages are templated dynamically with `.yml` files containting the post cont
 ### Coursework
 I anticipate that this will be the most updated page.
 
-##### Updating Current Course Year
+#### Updating Current Course Year
 The current term is stored in `_config.yml`. This probably isn't the best way to manage this, but every semester, update `currentterm` to the correct term.
 
-##### Adding Courses
+#### Adding Courses
 - All course data is stored in `_data/coursework.yml`
 - Add new courses to the bottom of the file according to the following schema:
 ```yml
@@ -23,7 +23,7 @@ desc : short description
 link : link to more more information (optional)
 hnrs : bool - true if honors course (optional)
 ``` 
-##### Adding new Category
+#### Adding new Category
 `/coursework.html` renders in an alternate template from the rest of the site, `layouts/coursework.html`. Adding a new category is fairly simple:
 - Create new page with `layout: coursework`
 - Use the following template, replating `[CONDITION]` with a logical expression:
@@ -38,13 +38,15 @@ hnrs : bool - true if honors course (optional)
 ```
 
 ### Projects
-This section is formatted more like a blog. The logic hasn't been fully fleshed out yet -- there is no way to access an individual project's page or add images.
+This section is formatted more like a blog. New projects should be added to `/_posts/` with the following prefix: `YYYY-MM-DD-`
 
-The current schema for `_data/projects.yml` is:
+#### Schema
 ```yml
-name: Title of project
-url: Link for [More Info] button
-description: Project details
+layout: projects
+categories: project
+title: "Project Title"
+description: "Project Description"
+fontawesome: bool (optional - true includes FA script to footer of page)
 ```
 
 # Compilation

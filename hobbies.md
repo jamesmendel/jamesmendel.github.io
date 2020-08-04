@@ -27,7 +27,7 @@ My current desktop:
 |--------------|----------------------------------|
 | Processor    | Intel i5-7600K @3.8GHz           |
 | Memory       | 16GB DDR4                        |
-| Graphics     | NVIDIA GeForce GTX 1080 8GB VRAM |
+| Graphics     | NVIDIA GeForce GTX 1080          |
 | HDD 1 (Boot) | 240GB Kingston SSD               |
 | HDD 2, 3     | 2x 1TB WD Blue (RAID 0)          |
 

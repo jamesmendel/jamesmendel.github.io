@@ -7,7 +7,7 @@ title: Home
 I'm a sophmore at the [University of Kansas](//engr.ku.edu/){:target="_blank"} studying [Electrical Engineering](//eecs.ku.edu/){:target="_blank"}.
 I have a range of hobbies and interests that you can find more about by exploring this webiste / blog (I'm not 100% sure what to call it at this point, so let's go with the combination). 
 
-I am an active member in [KU's chapter of IEEE](https://ieee.eecs.ku.edu){:target="_blank"} and a recipient of the [Vann Family](https://engr.ku.edu/kyle-d-vann){:target="_blank"} Future Leaders scholarship. See some of the projects I've woked on on my [Projects]({{ site.baseurl }}/projects.html) page.
+I am the secretary of [KU's chapter of IEEE](https://ieee.eecs.ku.edu){:target="_blank"} and a recipient of the [Vann Family](https://engr.ku.edu/kyle-d-vann){:target="_blank"} Future Leaders scholarship. See some of the projects I've woked on on my [Projects]({{ site.baseurl }}/projects.html) page.
 
 I have many [hobbies]({{ site.baseurl }}/hobbies.html)! The include, but are not limited to:
 - Mechanical keyboards
