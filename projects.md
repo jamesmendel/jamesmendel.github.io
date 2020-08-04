@@ -1,20 +1,17 @@
 ---
-layout: frontpage
+# Main projects page that lists all posts with category = project
+layout: projects
 title: Projects
 ---
 
-# Projects
+{% for project in site.categories.project %}
 
-{% for project in site.data.projects %}
+## {{ project.title }} <small>(*{{ project.date | date: "%Y" }}*)</small>
+*{{ project.description }}*
 
-## {{ project.name }}
+----
+{{ project.excerpt }}
 
----
-
-{{ project.description }}
-
-[[More Info]({{ project.url }})]
-
-
+[[Read More]({{ site.baseurl }}{{ project.url | remove: ".html" }})]
 
 {% endfor %}
