@@ -1,0 +1,116 @@
+# code : KU Class code
+# name : Course number and title
+# term : term course was completed
+# desc : short description
+# link : link to more information (optional)
+# hnrs : bool - true if honors course (optional)
+# #####
+# ! Add entries chronologically to the bottom of this file.
+# #####
+- dept: MATH
+  code: 125
+  name: Calculus I
+  term: Fall 2019
+  desc: Limits, continuity and derivatives of algebraic, trigonometric, exponential and logarithmic functions. Curve sketching, optimization and other applications of the derivative. Antiderivatives, Riemann sums, the definite integral, and the fundamental theorem of calculus.
+
+- dept: ECON
+  code: 144
+  name: Principles of Macroeconomics
+  term: Fall 2019
+  desc: An analytical introduction to macroeconomics. Topics include determination of aggregate income, employment, inflation, exchange rates, and the role of fiscal and monetary policy in dealing with unemployment, inflation, and economic growth.
+
+- dept: EECS
+  code: 101
+  name: New Student Seminar
+  term: Fall 2019
+  desc: A seminar intended to help connect freshmen and transfer EECS students to the EECS department, their chosen profession, and each other. Topics include overviews of the various disciplines, curricula and advising, ethics and professionalism, student organizations and extracurricular activities, senior projects, and career planning.
+
+- dept: EECS
+  code: 140
+  name: Intro to Digital Logic Design
+  term: Fall 2019
+  desc: An introductory course in digital logic circuits covering number representation, digital codes, Boolean Algebra, combinatorial logic design, sequential logic design, and programmable logic devices.
+
+- dept: ENGL
+  code: 105
+  name: "Introduction to English: Honors"
+  term: Fall 2019
+  desc: Study of significant works of world literature. The primary aims are to develop reading and writing skills and to introduce the students to works of literature drawn from a variety of genres and historical periods.
+  hnrs: true
+
+- dept: HNRS
+  code: 190
+  name: A Just Machine - First Year Honors Seminar
+  term: Fall 2019
+  desc: This seminar serves as an introduction to the University Honors Program, to research opportunities and other academic resources available at the University of Kansas, and to specific disciplinary perspectives on an overarching theme. The early days of computing focusing on how computing came to be and why. We look at work by the major early computing scholars and put their work in the context of World War II. We also look a that the limitations of computing and what we know about what can and cannot be computed mechanically.
+  link: /coursework/course/hnrs190.html
+  hnrs: true
+
+- dept: MATH
+  code: 146
+  name: "Calculus II: Honors"
+  term: Spring 2020
+  desc: Techniques of integration, including integration by parts. Applications of integration, including volume, arc length, work and average value. Infinite sequences and series and Taylor series. Polar coordinates, vectors and the geometry of space.
+  hnrs: true
+
+- dept: COMS
+  code: 130
+  name: Speaker-Audience Communication
+  term: Spring 2020
+  desc: Study of rhetorical theory and its application to the preparation, presentation, and criticism of oral discourse in audience situations. Special consideration of listening behavior and of the ethical conduct of speech in a free society.
+
+- dept: EECS
+  code: 169
+  name: "Programming I: Honors"
+  term: Spring 2020
+  desc: "Problem solving using a high level programming language and object oriented software design. Fundamental stages of software development are discussed: problem specification, program design, implementation, testing, and documentation. Introduction to programming using an object oriented language: using classes, defining classes, extending classes. Introduction to algorithms and data structures useful for problem solving: arrays, lists, files, searching, and sorting. Students will be responsible for designing, implementing, testing, and documenting independent programming projects. Professional ethics are defined and discussed in particular with respect to computer rights and responsibilities."
+  hnrs: true
+  
+- dept: PHSX
+  code: 210 / 216
+  name: General Physics I for Engineers / Lab
+  term: Spring 2020
+  desc: Introduction to classical mechanics and thermodynamics designed for students in the School of Engineering who have completed MATH 125 or MATH 145 with a grade of C or better. Students not admitted to the School of Engineering must receive permission from instructor.
+
+- dept: HIST
+  code: 129
+  name: History of the United States After the Civil War
+  term: Summer 2020
+  desc: A historical survey of the American people from Reconstruction to the present. This survey is designed to reflect the diversity of the American experience, to offer the student a chronological perspective on the history of the United States, and to explore the main themes, issues, ideas, and events that shaped American history.
+
+- dept: MATH
+  code: 127
+  name: Calculus III
+  term: Summer 2020
+  desc: Multivariable functions, partial derivatives and their applications, multiple integrals and their applications. Vector-valued functions, line and surface integrals, Green, Gauss and Stokes Theorems.
+
+- dept: CHEM
+  code: 130
+  name: General Chemestry I
+  term: Fall 2020 
+  desc: This course seeks to develop a working knowledge of the conceptual foundation and the quantitative chemical relationships on which subsequent chemistry courses are built. Atomic structure, chemical bonding, reaction stoichiometry, thermochemistry, and periodic trends are emphasized in this integrated lecture and laboratory course.
+
+- dept: EECS
+  code: 202
+  name: Circuits I
+  term: Fall 2020
+  desc: "Analysis of linear electrical circuits: Kirchoff's laws; source, resistor, capacitor and inductor models; nodal and mesh analysis; network theorems; transient analysis; Laplace transform analysis; steady-state sinusoidal analysis. The lab provides training and practice in the use of computational tools (e.g., Matlab), computer-aided circuit analysis (e.g., Pspice), and laboratory skills."
+
+- dept: LING
+  code: 111
+  name: "Linguistics - Langauage & Mind: Honors"
+  term: Fall 2020
+  desc: A study of the relation between language and the human mind, focusing on language as a fundamental aspect of human cognition. Topics include what is innate and what is learned during first and second language acquisition, how we process language, and whether there are areas of the brain specialized for language.
+  hnrs: true
+
+- dept: MATH
+  code: 220
+  name: Applied Differential Equations
+  term: Fall 2020
+  desc: Linear ordinary differential equations, Laplace transforms, systems of equations, and applications.
+
+- dept: MATH
+  code: 290
+  name: Elementary Linear Algebra
+  term: Fall 2020
+  desc: Systems of linear equations, matrices, vector spaces, linear transformations, and applications.
