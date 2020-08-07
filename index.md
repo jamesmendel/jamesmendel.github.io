@@ -7,9 +7,9 @@ title: Home
 I'm a sophomore at the [University of Kansas](//engr.ku.edu/){:target="_blank"} studying [Electrical Engineering](//eecs.ku.edu/){:target="_blank"}.
 I have a range of hobbies and interests that you can find more about by exploring this website / blog (I'm not 100% sure what to call it at this point, so let's go with the combination). 
 
-I am the secretary of [KU's chapter of IEEE](https://ieee.eecs.ku.edu){:target="_blank"} and a recipient of the [Vann Family](https://engr.ku.edu/kyle-d-vann){:target="_blank"} Future Leaders scholarship. See some of the projects I've worked on on my [Projects]({{ site.baseurl }}/projects.html) page.
+I am the secretary of [KU's chapter of IEEE](https://ieee.eecs.ku.edu){:target="_blank"} and a recipient of the [Vann Family](https://engr.ku.edu/kyle-d-vann){:target="_blank"} Future Leaders scholarship. See some of the projects I've worked on on my [Projects]({{ site.baseurl }}/projects) page.
 
-I have many [hobbies]({{ site.baseurl }}/hobbies.html)! They include, but are not limited to:
+I have many [hobbies]({{ site.baseurl }}/hobbies)! They include, but are not limited to:
 - Mechanical keyboards
 - Music (speakers, headphones)
 - 3D Printing

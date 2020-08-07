@@ -12,7 +12,7 @@ I have many hobbies! They include, but are not limited to:
 - Programming
 - Web design
 
-My current keyboard:
+### My current keyboard:
 
 | Component | Model                     |
 |-----------|---------------------------|
@@ -21,7 +21,8 @@ My current keyboard:
 | Lubricant | Krytox G205 Grade 0       |
 | Keycaps   | GMK Taro R2               |
 
-My current desktop:
+
+### My current desktop:
 
 | Component    | Model                            |
 |--------------|----------------------------------|
@@ -31,7 +32,9 @@ My current desktop:
 | HDD 1 (Boot) | 240GB Kingston SSD               |
 | HDD 2, 3     | 2x 1TB WD Blue (RAID 0)          |
 
-My current sound peripherals:
+### Music:
+
+My current peripherals
 
 | Component  | Model                   |
 |------------|-------------------------|
@@ -39,6 +42,18 @@ My current sound peripherals:
 | Earbuds    | Apple Air Pods Pro      |
 | Receiver   | Yamaha CRX E-300        |
 | Speakers   | Micca MB42X             |
+
+Some of my favorite albums
+
+| Artist          | Album           |
+|-----------------|-----------------|
+| The Beatles     | Revolver        |
+| Tame Impala     | Inner Speaker   |
+| Parcels         | Parcels         |
+| Fleetwood Mac   | Rumours         |
+| LCD Soundsystem | Sound of Silver |
+
+
 
 {% for post in site.categories.gear %}
 
