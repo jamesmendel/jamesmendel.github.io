@@ -86,7 +86,7 @@
 
 - dept: CHEM
   code: 130
-  name: General Chemestry I
+  name: General Chemistry I
   term: Fall 2020 
   desc: This course seeks to develop a working knowledge of the conceptual foundation and the quantitative chemical relationships on which subsequent chemistry courses are built. Atomic structure, chemical bonding, reaction stoichiometry, thermochemistry, and periodic trends are emphasized in this integrated lecture and laboratory course.
 
@@ -98,7 +98,7 @@
 
 - dept: LING
   code: 111
-  name: "Linguistics - Langauage & Mind: Honors"
+  name: "Linguistics - Language & Mind: Honors"
   term: Fall 2020
   desc: A study of the relation between language and the human mind, focusing on language as a fundamental aspect of human cognition. Topics include what is innate and what is learned during first and second language acquisition, how we process language, and whether there are areas of the brain specialized for language.
   hnrs: true

@@ -7,7 +7,7 @@ title: {{ site.title }}
 
 I keep this blog of things related to interests outside work
 in music, stereo gear, movies and what not.  This is the main blog
-with exerpts from all posts.  Category specific listings can be found
+with excerpts from all posts.  Category specific listings can be found
 in the sidebar.
 
 {% for post in site.categories.blog %}

@@ -4,7 +4,7 @@
 This site was built off of the [minimal](https://github.com/pages-themes/minimal) theme for [Jekyll](https://jekyllrb.com/) with support for Github pages.
 
 # Adding content
-Most pages are templated dynamically with `.yml` files containting the post content according to some schema. However, some pages (that I don't anticipate changing too often) are hardcoded in good 'ol `markdown`. 
+Most pages are templated dynamically with `.yml` files containing the post content according to some schema. However, some pages (that I don't anticipate changing too often) are hardcoded in good 'ol `markdown`. 
 
 ### Coursework
 I anticipate that this will be the most updated page.
@@ -26,7 +26,7 @@ hnrs : bool - true if honors course (optional)
 #### Adding new Category
 `/coursework.html` renders in an alternate template from the rest of the site, `layouts/coursework.html`. Adding a new category is fairly simple:
 - Create new page with `layout: coursework`
-- Use the following template, replating `[CONDITION]` with a logical expression:
+- Use the following template, replacing `[CONDITION]` with a logical expression:
 ```liquid
 {% for course in site.data.coursework reversed %}
     {% if [CONDITION] %}

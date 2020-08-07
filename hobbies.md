@@ -5,7 +5,7 @@ title: Hobbies
 
 # Hobbies
 
-I have many hobbies! The include, but are not limited to:
+I have many hobbies! They include, but are not limited to:
 - Mechanical keyboards
 - Music (speakers, headphones)
 - 3D Printing
@@ -37,7 +37,7 @@ My current sound peripherals:
 |------------|-------------------------|
 | Headphones | Audio Technica ATH-M40x |
 | Earbuds    | Apple Air Pods Pro      |
-| Reciever   | Yamaha CRX E-300        |
+| Receiver   | Yamaha CRX E-300        |
 | Speakers   | Micca MB42X             |
 
 {% for post in site.categories.gear %}
