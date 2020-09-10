@@ -4,7 +4,7 @@ title: Coursework
 ---
 
 # Coursework
-### A comprehensive list of passed courses I have completed at KU.
+### A comprehensive list of courses I have completed at KU.
 -----
 
 {% for course in site.data.coursework reversed %}
