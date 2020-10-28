@@ -114,3 +114,27 @@
   name: Elementary Linear Algebra
   term: Fall 2020
   desc: Systems of linear equations, matrices, vector spaces, linear transformations, and applications.
+
+- dept: EECS
+  code: 388
+  name: Embedded Systems
+  term: Spring 2021
+  desc: "Internal organization of micro-controller systems, sometimes called embedded systems, used in a wide variety of engineered systems: programming in C and assembly language; input and output systems; collecting data from sensors; and controlling external devices. A focus on one or two specific microprocessors, software development and organization, and building embedded systems."
+
+- dept: EECS
+  code: 312
+  name: Electronic Circuits I
+  term: Spring 2021
+  desc: "Introduction to diodes, BJTs and MOSFETs, and their use in electronic circuits, especially digital circuits."
+
+- dept: EECS
+  code: 221
+  name: Electromagnetics II
+  term: Spring 2021
+  desc: "Electrostatic and magnetostatic fields in a vacuum and material media. Electromagnetic fields and Maxwell's equations for time-varying sources. The relationship between field and circuit theory. Simple applications of Maxwell's equations."
+
+- dept: EECS
+  code: 212
+  name: Circuits II
+  term: Spring 2021
+  desc: "Continued study of electrical circuits: Steady-state power analysis, three-phase circuits, transformers, frequency response, and two-port network analysis."
