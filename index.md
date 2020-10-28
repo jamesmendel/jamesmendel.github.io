@@ -37,4 +37,4 @@ Personal Contact
 ----
 My [full resume]({{ site.baseurl }}/resources/james-mendel-resume.pdf) should you be interested.
 <br>
-<small>(updated August 2020)</small>
+<small>(updated October 2020)</small>
