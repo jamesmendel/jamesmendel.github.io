@@ -4,14 +4,17 @@ layout: projects
 title: Projects
 ---
 
+----
+
 {% for project in site.categories.project %}
 
 ## {{ project.title }} <small>(*{{ project.date | date: "%Y" }}*)</small>
 *{{ project.description }}*
 
-----
 {{ project.excerpt }}
 
 [[Read More]({{ site.baseurl }}{{ project.url | remove: ".html" }})]
+
+----
 
 {% endfor %}

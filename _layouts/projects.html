@@ -15,13 +15,13 @@
     <div class="wrapper">
       <header>
         <h1>{{ site.title }}</h1>
-        <p>{{ site.subtitle }}</p>
+        <h4>{{ site.subtitle }}</h4>
 
         <img src="{{ site.baseurl }}/images/James-Mendel.png" alt="James Mendel" style="border-radius: 7px; width:175px;" >
         <br><br>
         {% include sidebar-pages.html %}
 
-	Recent Projects<br>
+	<p>Recent Projects</p>
 	<ul>
     {% for project in site.categories.project limit:6 %}
     <li><a href="{{ site.baseurl }}{{ project.url | remove: ".html"}}">{{ project.title }}</a></li>
