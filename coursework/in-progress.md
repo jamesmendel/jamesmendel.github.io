@@ -5,6 +5,8 @@ title: In Progress Coursework
 ---
 
 # By Category - In Progress
+*{{ site.currentterm }}*
+
 -----
 
 {% for course in site.data.coursework reversed %}
