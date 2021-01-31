@@ -13,6 +13,7 @@ I have many hobbies! They include, but are not limited to:
 - Web design
 
 ### My current keyboard:
+[(Picture)]({{ site.baseurl }}/images/Keyboard.jpg){:target="_blank"}
 
 | Component | Model                     |
 |-----------|---------------------------|
