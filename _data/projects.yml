@@ -4,5 +4,5 @@
 
 - name: KU | RateMyProfessors browser extension
   url: https://github.com/jamesmendel/ku-rmp
-  description: "Modifies classes.ku.edu professor links to redirect to their RateMyProfessors.com search query. Available for [Firefox](https://github.com/jamesmendel/ku-rmp/releases/) and [Chrome](https://chrome.google.com/webstore/detail/ku-search-ratemyprofessor/fcbcjgfbgnnjkokdmgdbmlibeakmalgi/)"
+  description: "Modifies classes.ku.edu professor links to redirect to their RateMyProfessors.com search query. Available for [Firefox](https://github.com/jamesmendel/ku-rmp/releases/) and [Chrome](https://chrome.google.com/webstore/detail/ku-search-ratemyprofessor/fcbcjgfbgnnjkokdmgdbmlibeakmalgi/)."
 
