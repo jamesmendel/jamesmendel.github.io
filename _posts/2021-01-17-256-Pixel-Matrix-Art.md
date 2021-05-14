@@ -10,7 +10,7 @@ Insipired by those expensive [Nanoleafs](https://nanoleaf.me/en-US/) that are po
 
 ## Demo
 At this point, custom animations can be implemended very easily. I will explore this in later posts. 
-I made a quick demo that you [view here](https://www.youtube.com/watch?v=YyiG6wzC1bk){:target="_blank"}, this shows off a quick iOS shortcut I wrote that sends POST requests to the web-server to quickly change the animation from my homescreen. [Ignore the upside-down heart! I was testing bitmaps and got a parameter flipped]
+I made a quick demo that you [view here](https://youtu.be/qpdpmUZ4R0s){:target="_blank"}, this shows off a quick iOS shortcut I wrote that sends POST requests to the web-server to quickly change the animation from my homescreen. [Ignore the upside-down heart! I was testing bitmaps and got a parameter flipped]
 
 ## Assembly
 After assembly (see the CAD below -- its not too complicated but feel free to reach out if you have any questions),
