@@ -138,3 +138,28 @@
   name: Circuits II
   term: Spring 2021
   desc: "Continued study of electrical circuits: Steady-state power analysis, three-phase circuits, transformers, frequency response, and two-port network analysis."
+
+- dept: MATH
+  code: 526
+  name: Applied Mathematical Statistics
+  term: Fall 2021
+  desc: "A first course in statistics for students with the techniques of calculus at their disposal. The following topics are studied with illustrations and problems drawn from various fields of applications: basic notions of probability and probability distributions; classical estimation and testing procedures for one and two sample problems; chi-square test."
+
+- dept: PHSX
+  code: 313 / 316
+  name: General Physics III / Lab
+  term: Fall 2021
+  desc: "Introduction to modern physics. Topics include special relativity, optics, and introductions to quantum mechanics and solid state physics."
+
+- dept: EECS
+  code: 268
+  name: Programming II
+  term: Fall 2021
+  desc: "This course continues developing problem solving techniques by focusing on the imperative and object-oriented styles using Abstract Data Types. Basic data structures such as queues, stacks, trees, and graphs will be covered. Recursion. Basic notions of algorithmic efficiency and performance analysis in the context of sorting algorithms. Basic Object-Oriented techniques. An associated laboratory will develop projects reinforcing the lecture material."
+
+- dept: EECS
+  code: 360
+  name: Signal and Systems Analysis
+  term: Fall 2021
+  desc: "Fourier signal analysis (series and transform); linear system analysis (continuous and discrete); Z-transforms; analog and digital filter analysis. Analysis and design of continuous and discrete time systems using MATLAB."
+  
