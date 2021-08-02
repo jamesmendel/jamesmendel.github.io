@@ -5,12 +5,14 @@ title: Hobbies
 
 # Hobbies
 
-I have many hobbies! They include, but are not limited to:
+I have many hobbies, most of them revolve around technology.
+Some of them include:
 - Mechanical keyboards
-- Music (speakers, headphones)
+- Music (listening)
 - 3D Printing
 - Programming
 - Web design
+- Creating
 
 ### My current keyboard:
 [(Picture)]({{ site.baseurl }}/images/Keyboard.jpg){:target="_blank"}
@@ -39,6 +41,7 @@ My current peripherals
 
 | Component  | Model                   |
 |------------|-------------------------|
+| Headphones | Drop x Senheiser HD 6XX |
 | Headphones | Audio Technica ATH-M40x |
 | Earbuds    | Apple Air Pods Pro      |
 | Receiver   | Yamaha CRX E-300        |
