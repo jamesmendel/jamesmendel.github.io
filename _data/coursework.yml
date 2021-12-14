@@ -163,3 +163,26 @@
   term: Fall 2021
   desc: "Fourier signal analysis (series and transform); linear system analysis (continuous and discrete); Z-transforms; analog and digital filter analysis. Analysis and design of continuous and discrete time systems using MATLAB."
   
+- dept: EECS
+  code: 562
+  name: Intro to Communication Systems
+  term: Spring 2022
+  desc: "A first course in communications, including lectures and integrated laboratory experiments. After a review of spectral analysis and signal transmission, analog and digital communications are studied. Topics include: sampling, pulse amplitude modulation, and pulse code modulation; analog and digital amplitude, frequency, and phase modulation; frequency and time division multiplexing; and noise performance of analog modulation techniques."
+
+- dept: EECS
+  code: 690
+  name: Software Reverse Engineering
+  term: Spring 2022
+  desc: "Special topic: Software Reverse Engineering. Description TBD"
+
+- dept: EECS
+  code: 444
+  name: Control Systems
+  term: Spring 2022
+  desc: "An introduction to the modeling, analysis, and design of linear control systems. Topics include mathematical models, feedback concepts, state-space methods, time response, system stability in the time and transform domains, design using PID control and series compensation, and digital controller implementation."
+
+- dept: EECS
+  code: 412
+  name: Electronic Circuits II
+  term: Spring 2022
+  desc: "Discrete and integrated amplifier analysis and design. Introduction to feedback amplifier analysis and design. Introduction to feedback amplifiers."
