@@ -5,12 +5,13 @@ title: Hobbies
 
 # Hobbies
 
-I have many hobbies, most of them revolve around technology.
-Some of them include:
+I have many hobbies. You'll notice that most of them revolve around technology.
+An incomprehensive list:
 - Mechanical keyboards
 - Music (listening)
 - 3D Printing
 - Programming
+- Creative coding (interactive design)
 - Web design
 - Creating
 
@@ -57,6 +58,7 @@ Some of my favorite albums
 | Fleetwood Mac   | Rumours         |
 | LCD Soundsystem | Sound of Silver |
 
+Or you can hear what I'm listening to right now on [Spotify](https://open.spotify.com/user/12187197787?si=6c2dbcb003764445){:target="_blank"}!
 
 
 {% for post in site.categories.gear %}
