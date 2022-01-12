@@ -1,10 +1,11 @@
 #baseurl: https://jamesmendel.github.io
 account: jamesmendel
 title: James Mendel
-subtitle: Student @ The University of Kansas
+# subtitle: Student @ The University of Kansas
+subtitle: Curious | Creative | Boundless
 markdown: kramdown
 description: James Mendel's Website
 url: http://jamesmendel.github.io
 github: https://github.com/jamesmendel
 linkedin: https://linkedin.com/in/james-mendel
-currentterm: Fall 2021
+currentterm: Spring 2022
