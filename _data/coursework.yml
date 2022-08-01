@@ -186,3 +186,26 @@
   name: Electronic Circuits II
   term: Spring 2022
   desc: "Discrete and integrated amplifier analysis and design. Introduction to feedback amplifier analysis and design. Introduction to feedback amplifiers."
+
+- dept: EECS
+  code: 470
+  name: Electrical Devices & Properties of Materials
+  term: Fall 2022
+  desc: An introduction to crystal structures, and metal, insulator, and semiconductor properties. Topics covered include the thermal, electric, dielectric, and optical properties of these materials. A significant portion of this course is devoted to the properties of semiconductors and semiconductor devices.
+
+- dept: EECS
+  code: 622
+  name: Microwave and Radio Transmission Systems
+  term: Fall 2022
+  desc: Introduction to radio transmission systems. Topics include radio transmitter and receiver design, radiowave propagation phenomenology, antenna performance and basic design, and signal detection in the presence of noise. Students will design radio systems to meet specified performance measure.
+
+- dept: EECS
+  code: 420
+  name: Electromagnetics II
+  term: Fall 2022
+  desc: This course applies electromagnetic analysis to high frequency devices and systems where wave propagation effects cannot be neglected. Topics covered include transmission lines, space waves, waveguides, radiation, and antennas. Laboratory experiments include transmission line, waveguide, and antenna measurements and characterizations.
+
+- dept: EECS
+  code: 501
+  name: Senior Design Laboratory I
+  desc: A lecture/laboratory course involving the design and implementation of prototypes of electrical and computer type products and systems. The project specifications require consideration of ethics, economics, manufacturing, and safety.
