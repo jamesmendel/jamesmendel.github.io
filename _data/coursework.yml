@@ -129,7 +129,7 @@
 
 - dept: EECS
   code: 221
-  name: Electromagnetics II
+  name: Electromagnetics I
   term: Spring 2021
   desc: "Electrostatic and magnetostatic fields in a vacuum and material media. Electromagnetic fields and Maxwell's equations for time-varying sources. The relationship between field and circuit theory. Simple applications of Maxwell's equations."
 
@@ -208,4 +208,5 @@
 - dept: EECS
   code: 501
   name: Senior Design Laboratory I
+  term: Fall 2022
   desc: A lecture/laboratory course involving the design and implementation of prototypes of electrical and computer type products and systems. The project specifications require consideration of ethics, economics, manufacturing, and safety.
