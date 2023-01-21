@@ -4,10 +4,10 @@ title: Home
 ---
 # Hi! I'm James.
 -----
-I'm a senior at the [University of Kansas](//engr.ku.edu/){:target="_blank"} studying [Electrical Engineering](//eecs.ku.edu/){:target="_blank"}.
+I'm a senior at the [University of Kansas](//engr.ku.edu/){:target="_blank"} studying [Electrical Engineering](//eecs.ku.edu/){:target="_blank"}. I will be graduating with a Sc.B. EE in May 2023.
 I have a range of hobbies and interests that you can find more about by exploring this website / blog (I'm not 100% sure what to call it at this point, so let's go with the combination). 
 
-I am the Vice President of [KU's chapter of IEEE](https://ieee.eecs.ku.edu){:target="_blank"} and a former recipient of the [Vann Family](https://engr.ku.edu/kyle-d-vann){:target="_blank"} Future Leaders Scholarship and the Garmin Excellence Scholarship. See some of the projects I've worked on on my [Projects]({{ site.baseurl }}/projects) page.
+I am the Engineering EXPO coordinator for [KU's chapter of IEEE](https://ieee.eecs.ku.edu){:target="_blank"} and a former recipient of the [Vann Family](https://engr.ku.edu/kyle-d-vann){:target="_blank"} Future Leaders Scholarship and the Garmin Excellence Scholarship. See some of the projects I've worked on on my [Projects]({{ site.baseurl }}/projects) page.
 
 I have many [hobbies]({{ site.baseurl }}/hobbies)! They include, but are not limited to:
 - Mechanical keyboards

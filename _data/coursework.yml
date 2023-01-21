@@ -210,3 +210,33 @@
   name: Senior Design Laboratory I
   term: Fall 2022
   desc: A lecture/laboratory course involving the design and implementation of prototypes of electrical and computer type products and systems. The project specifications require consideration of ethics, economics, manufacturing, and safety.
+
+- dept: EECS
+  code: 443
+  name: Digital Systems Design
+  term: Spring 2023
+  desc: The design of digital systems from a hardware point of view. The implementation of functional and control units using programmable logic devices. Introduction to VHDL and its use in modeling and designing digital systems.
+
+- dept: EECS
+  code: 502
+  name: Senior Design Laboratory I
+  term: Spring 2023
+  desc: A lecture/laboratory course involving the design and implementation of prototypes of electrical and computer type products and systems. The project specifications require consideration of ethics, economics, health, manufacturing, and safety. Must be taken in semester immediately following completion of EECS 501.
+
+- dept: EECS
+  code: 512
+  name: Electronic Circuits III
+  term: Spring 2023
+  desc: Feedback amplifier circuit analysis, power amplifiers, analog IC op-amp techniques and analysis, filter approximation and realization, oscillators, wave generators and shapers.
+
+- dept: EECS
+  code: 690
+  name: Laser Engineering
+  term: Spring 2023
+  desc: Feedback amplifier circuit analysis, power amplifiers, analog IC op-amp techniques and analysis, filter approximation and realization, oscillators, wave generators and shapers.
+
+- dept: CLSX
+  code: 316
+  name: Ancient Magic and Witches
+  term: Spring 2023
+  desc: This course provides a survey of magic and witchcraft in ancient Greece and Rome and interprets these practices through anthropological theories of magic and witchcraft. Emphasized topics may include magicians, witches, ghosts, spirits, demons, divination, and spells. This course considers issues such as how magic works, how people engage with the divine, the marginalization of magical practitioners, and the difference between magic, witchcraft and religion.
