@@ -28,7 +28,7 @@ Online
 
 Personally
 : <i class="fas fa-fw fa-envelope"></i> james <i class="fas fa-at"></i> jamesmendel \[dot\] com (email)
-: <i class="fas fa-fw fa-mobile-alt"></i> 816-588-4509 (Cell)
+<!-- : <i class="fas fa-fw fa-mobile-alt"></i> ###-###-#### (Cell) -->
 
 # Resume
 ----
