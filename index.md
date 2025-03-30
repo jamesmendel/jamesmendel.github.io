@@ -11,10 +11,11 @@ See some of the projects I've worked on on my [Projects]({{ site.baseurl }}/proj
 
 I have many [hobbies]({{ site.baseurl }}/hobbies), some of which I use to help describe myself:
 - Hiker
-- Mechanical keyboards builder
+- Photographer
+- Mechanical keyboard builder
 - Music enjoyer
 - Programmer
-- Web designer
+- PCB Designer
 
 Interested? Look around! This site was made to journal the journey of my higher education, but posts may go back as far as my middle school days! We'll see what I can dig up from the past and and create in the present. 
 
@@ -22,13 +23,15 @@ Happy browsing.
 
 # Reach out
 -----
-Online
-: <i class="fab fa-fw fa-linkedin"></i> [/in/james-mendel/]({{ site.linkedin }}){:target="_blank"} (Linkedin)
-: <i class="fab fa-fw fa-github-square"></i> [/jamesmendel/]({{ site.github }}){:target="_blank"} (Github)
+Have a cool project idea? Shoot me a message and lets make something!
 
-Personally
+Directly
 : <i class="fas fa-fw fa-envelope"></i> james <i class="fas fa-at"></i> jamesmendel \[dot\] com (email)
 <!-- : <i class="fas fa-fw fa-mobile-alt"></i> ###-###-#### (Cell) -->
+
+Social Media
+: <i class="fab fa-fw fa-linkedin"></i> [/in/james-mendel/]({{ site.linkedin }}){:target="_blank"} (Linkedin)
+: <i class="fab fa-fw fa-github-square"></i> [/jamesmendel/]({{ site.github }}){:target="_blank"} (Github)
 
 # Resume
 ----
