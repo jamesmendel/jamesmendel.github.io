@@ -58,8 +58,7 @@ Some of my favorite albums
 | Fleetwood Mac   | Rumours         |
 | LCD Soundsystem | Sound of Silver |
 
-Or you can hear what I'm listening to right now on 
-: <i class="fa-brands fa-spotify"></i> Spotify
+<i class="fa-brands fa-spotify"></i> Or you can hear what I'm listening to right now on 
 [Spotify](https://open.spotify.com/user/12187197787?si=6c2dbcb003764445){:target="_blank"}!
 
 {% for post in site.categories.gear %}
