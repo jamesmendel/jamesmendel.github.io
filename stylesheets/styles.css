@@ -7,6 +7,59 @@ body {
   font-weight:300;
 }
 
+      /* Wrapper for logo + tracking */
+      .logo-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Logo container with rounded corners */
+    .logo-container {
+        position: relative;
+        display: inline-block;
+        width: 200px; /* Match SVG width */
+        border-radius: 12px; /* Match your SVG’s corner radius */
+        overflow: hidden; /* Clip effect to rounded bounds */
+    }
+
+    /* SVG logo */
+    .logo-svg {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Invert effect (now sharper) */
+    .invert-effect {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background: radial-gradient(
+            circle at center, 
+            rgba(255, 255, 255, 1) 0%,    /* Full inversion in center */
+            rgba(255, 255, 255, 0.8) 80%,  /* Start fading here */
+            rgba(255, 255, 255, 0) 90%     /* Fully transparent at edge */
+        );
+        mix-blend-mode: difference;
+        pointer-events: none;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.25s ease;
+    }
+
+    /* Expanded tracking area (sibling of logo-container) */
+    .tracking-area {
+        position: absolute;
+        top: -60px;
+        left: -60px;
+        right: -60px;
+        bottom: 180px;
+        z-index: 2;
+        /* Debug: Uncomment to see tracking area */
+        /* background: rgba(255, 0, 0, 0.1); */
+    }
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;

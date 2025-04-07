@@ -1,6 +1,72 @@
+<div class="logo-wrapper">
+  <!-- Logo + effect (clipped to rounded corners) -->
+  <div class="logo-container">
+      <svg class="logo-svg" viewBox="0 0 130.18 69.68" preserveAspectRatio="xMidYMid meet">
+          <defs>
+              <style>.cls-1 { fill: #231f20; }</style>
+          </defs>
+          <g id="Layer_1-2" data-name="Layer_1">
+            <g>
+              <g>
+                <path class="cls-1" d="M30.74,54.2h-12.63c-1.45,0-2.63-1.18-2.63-2.63v-10.22c0-1.45,1.18-2.63,2.63-2.63h2.37c1.45,0,2.63,1.18,2.63,2.63v2.48c0,1.45,1.18,2.63,2.63,2.63h2.37c1.45,0,2.63-1.18,2.63-2.63v-17.96c0-1.45-1.18-2.63-2.63-2.63h-10c-1.45,0-2.63-1.18-2.63-2.63v-2.48c0-1.45,1.18-2.63,2.63-2.63h17.63c1.45,0,2.63,1.18,2.63,2.63v33.45c0,1.45-1.18,2.63-2.63,2.63h-5Z"/>
+                <path class="cls-1" d="M53.64,25.86v2.48c0,1.45,1.18,2.63,2.63,2.63h2.37c1.45,0,2.63,1.18,2.63,2.63v2.48c0,1.45-1.18,2.63-2.63,2.63h-2.37c-1.45,0-2.63,1.18-2.63,2.63v10.22c0,1.45-1.18,2.63-2.63,2.63h-2.37c-1.45,0-2.63-1.18-2.63-2.63V18.11c0-1.45,1.18-2.63,2.63-2.63h10c1.45,0,2.63,1.18,2.63,2.63v2.48c0,1.45-1.18,2.63-2.63,2.63h-2.37c-1.45,0-2.63,1.18-2.63,2.63ZM68.9,25.86v2.48c0,1.45-1.18,2.63-2.63,2.63h-2.37c-1.45,0-2.63-1.18-2.63-2.63v-2.48c0-1.45,1.18-2.63,2.63-2.63h2.37c1.45,0,2.63,1.18,2.63,2.63ZM63.9,38.71h2.37c1.45,0,2.63,1.18,2.63,2.63v10.22c0,1.45-1.18,2.63-2.63,2.63h-2.37c-1.45,0-2.63-1.18-2.63-2.63v-10.22c0-1.45,1.18-2.63,2.63-2.63Z"/>
+                <path class="cls-1" d="M79.17,54.2c-1.45,0-2.63-1.18-2.63-2.63v-25.71c0-1.45,1.18-2.63,2.63-2.63h2.37c1.45,0,2.63,1.18,2.63,2.63v25.71c0,1.45-1.18,2.63-2.63,2.63h-2.37ZM89.17,23.23h-2.37c-1.45,0-2.63-1.18-2.63-2.63v-2.48c0-1.45,1.18-2.63,2.63-2.63h2.37c1.45,0,2.63,1.18,2.63,2.63v2.48c0,1.45-1.18,2.63-2.63,2.63ZM94.43,38.71c-1.45,0-2.63-1.18-2.63-2.63v-10.22c0-1.45,1.18-2.63,2.63-2.63h2.37c1.45,0,2.63,1.18,2.63,2.63v10.22c0,1.45-1.18,2.63-2.63,2.63h-2.37ZM104.43,23.23h-2.37c-1.45,0-2.63-1.18-2.63-2.63v-2.48c0-1.45,1.18-2.63,2.63-2.63h2.37c1.45,0,2.63,1.18,2.63,2.63v2.48c0,1.45-1.18,2.63-2.63,2.63ZM109.69,54.2c-1.45,0-2.63-1.18-2.63-2.63v-25.71c0-1.45,1.18-2.63,2.63-2.63h2.37c1.45,0,2.63,1.18,2.63,2.63v25.71c0,1.45-1.18,2.63-2.63,2.63h-2.37Z"/>
+              </g>
+              <path class="cls-1" d="M0,5.38v58.92c0,2.97,2.41,5.38,5.38,5.38h119.42c2.97,0,5.38-2.41,5.38-5.38V5.38c0-2.97-2.41-5.38-5.38-5.38H5.38C2.41,0,0,2.41,0,5.38ZM111.67,61.94H18.5c-5.94,0-10.76-4.82-10.76-10.76V18.5c0-5.94,4.82-10.76,10.76-10.76h93.17c5.94,0,10.76,4.82,10.76,10.76v32.67c0,5.94-4.82,10.76-10.76,10.76Z"/>
+            </g>
+          </g>
+      </svg>
+      <div class="invert-effect"></div>
+  </div>
+  <!-- Tracking area (unclipped) -->
+  <div class="tracking-area"></div>
+  
+  
+<script>
+        const logoContainer = document.querySelector('.logo-container');
+        const effect = document.querySelector('.invert-effect');
+        const trackingArea = document.querySelector('.tracking-area');
+
+        // Track mouse position
+        trackingArea.addEventListener('mousemove', (e) => {
+            const rect = logoContainer.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            
+            effect.style.left = `${x}px`;
+            effect.style.top = `${y}px`;
+            effect.style.opacity = '1';
+        });
+
+        trackingArea.addEventListener('mouseleave', () => {
+            effect.style.opacity = '0';
+        });
+        
+        // Optional: Smooth movement with requestAnimationFrame
+        let animate = false;
+        let targetX = 0, targetY = 0;
+        
+        trackingArea.addEventListener('mousemove', (e) => {
+            const rect = container.getBoundingClientRect();
+            targetX = e.clientX - rect.left;
+            targetY = e.clientY - rect.top;
+            if (!animate) {
+                animate = true;
+                requestAnimationFrame(updatePosition);
+            }
+        });
+
+        function updatePosition() {
+            effect.style.left = `${targetX}px`;
+            effect.style.top = `${targetY}px`;
+            animate = false;
+        }
+</script>
+
+
 <h1 class="site-title">{{ site.title }}</h1>
 <h4>{{ site.subtitle }}</h4>
-  <img src="{{ site.baseurl }}/images/James-Mendel.png" alt="James Mendel" style="border-radius: 7px; width:175px;" >
+  <!-- <img src="{{ site.baseurl }}/images/James-Mendel.png" alt="James Mendel" style="border-radius: 7px; width:175px;" > -->
 <br><br>
 
 <p>Pages</p>
