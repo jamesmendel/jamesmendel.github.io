@@ -4,3 +4,4 @@ Gemfile
 Gemfile.lock
 *.gemspec
 .vscode/settings.json
+run.sh
