@@ -3,7 +3,7 @@
   <div class="logo-container">
       <svg class="logo-svg" viewBox="0 0 130.18 69.68" preserveAspectRatio="xMidYMid meet">
           <defs>
-              <style>.cls-1 { fill: #231f20; }</style>
+              <style>.cls-1 { fill: #222222; }</style>
           </defs>
           <g id="Layer_1-2" data-name="Layer_1">
             <g>
@@ -23,54 +23,107 @@
 </div> 
   
 <script>
-        const logoContainer = document.querySelector('.logo-container');
-        const effect = document.querySelector('.invert-effect');
-        const trackingArea = document.querySelector('.tracking-area');
+  const logoContainer = document.querySelector('.logo-container');
+  const effect = document.querySelector('.invert-effect');
+  const trackingArea = document.querySelector('.tracking-area');
+  let logoRect = logoContainer.getBoundingClientRect();
+  let animate = false;
+  let targetX = 0, targetY = 0;
+  let isTouching = false; // Track touch state
 
-        const logoRect = logoContainer.getBoundingClientRect();
+  // Shared move handler
+  const handleMove = (clientX, clientY) => {
+      const x = clientX - logoRect.left;
+      const y = clientY - logoRect.top;
+      
+      effect.style.left = `${x}px`;
+      effect.style.top = `${y}px`;
+      effect.style.opacity = '1';
+  };
 
+  // Shared leave handler
+  const handleLeave = () => {
+      effect.style.opacity = '0';
+  };
 
+  // Prevent default touch behavior
+  const preventScroll = (e) => {
+      if (isTouching) {
+          e.preventDefault();
+      }
+  };
 
-        // Track mouse position
-        trackingArea.addEventListener('mousemove', (e) => {
-            const x = e.clientX - logoRect.left;
-            const y = e.clientY - logoRect.top;
-            
-            effect.style.left = `${x}px`;
-            effect.style.top = `${y}px`;
-            effect.style.opacity = '1';
-        });
+  // Mouse events (unchanged)
+  trackingArea.addEventListener('mousemove', (e) => {
+      handleMove(e.clientX, e.clientY);
+      targetX = e.clientX - logoRect.left;
+      targetY = e.clientY - logoRect.top;
+      if (!animate) {
+          animate = true;
+          requestAnimationFrame(updatePosition);
+      }
+  });
 
-        trackingArea.addEventListener('mouseleave', () => {
-            effect.style.opacity = '0';
-        });
+  trackingArea.addEventListener('mouseleave', handleLeave);
 
-        // Optional: Smooth movement with requestAnimationFrame
-        let animate = false;
-        let targetX = 0, targetY = 0;
-        
-        trackingArea.addEventListener('mousemove', (e) => {
-            const rect = logoContainer.getBoundingClientRect();
-            targetX = e.clientX - rect.left;
-            targetY = e.clientY - rect.top;
-            if (!animate) {
-                animate = true;
-                requestAnimationFrame(updatePosition);
-            }
-        });
+  // Touch events with scroll prevention
+  trackingArea.addEventListener('touchstart', (e) => {
+      isTouching = true;
+      const touch = e.touches[0];
+      handleMove(touch.clientX, touch.clientY);
+  }, {passive: false});
 
-        function updatePosition() {
-            effect.style.left = `${targetX}px`;
-            effect.style.top = `${targetY}px`;
-            animate = false;
-        }
+  trackingArea.addEventListener('touchmove', (e) => {
+      if (!isTouching) return;
+      e.preventDefault();
+      const touch = e.touches[0];
+      handleMove(touch.clientX, touch.clientY);
+      targetX = touch.clientX - logoRect.left;
+      targetY = touch.clientY - logoRect.top;
+      if (!animate) {
+          animate = true;
+          requestAnimationFrame(updatePosition);
+      }
+  }, {passive: false});
+
+  trackingArea.addEventListener('touchend', (e) => {
+      isTouching = false;
+      handleLeave();
+  });
+
+  // Prevent any touch events from bubbling up
+  trackingArea.addEventListener('touchcancel', (e) => {
+      isTouching = false;
+      handleLeave();
+  });
+
+  // Add passive event listener for document
+  document.addEventListener('touchmove', preventScroll, {passive: false});
+
+  // Handle window resize
+  window.addEventListener('resize', () => {
+      logoRect = logoContainer.getBoundingClientRect();
+  });
+
+  function updatePosition() {
+      effect.style.left = `${targetX}px`;
+      effect.style.top = `${targetY}px`;
+      animate = false;
+  }
+
+  // Cleanup scroll prevention when unmounting
+  window.addEventListener('beforeunload', () => {
+      document.removeEventListener('touchmove', preventScroll);
+  });
 </script>
 
-<br>
-<h1 class="site-title">{{ site.title }}</h1>
-<h4>{{ site.subtitle }}</h4>
+<div class="no-select">
+  <br>
+  <h1 class="site-title">{{ site.title }}</h1>
+  <h4>{{ site.subtitle }}</h4>
   <!-- <img src="{{ site.baseurl }}/images/James-Mendel.png" alt="James Mendel" style="border-radius: 7px; width:175px;" > -->
-<br><br>
+  <br><br>
+</div>
 
 <p>Pages</p>
 <a href="{{ site.baseurl }}/">Home</a><br>

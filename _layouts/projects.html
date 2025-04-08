@@ -17,12 +17,14 @@
       <header>
         {% include sidebar.html %}
 
-	<p>Recent Projects</p>
-	<ul>
-    {% for project in site.categories.project limit:6 %}
-    <li><a href="{{ site.baseurl }}{{ project.url | remove: ".html"}}">{{ project.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <div class="project-list">
+    <p>Recent Projects</p>
+    <ul>
+      {% for project in site.categories.project limit:6 %}
+      <li><a href="{{ site.baseurl }}{{ project.url | remove: ".html"}}">{{ project.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 
       </header>
       <section> 
