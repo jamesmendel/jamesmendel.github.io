@@ -1,64 +1,65 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:14px/1.5 "Jost", Helvetica, "Helvetica Neue", Arial, sans-serif;
   color:#444;
-  font-weight:300;
+  /* font-weight:300; */
 }
 
-      /* Wrapper for logo + tracking */
-      .logo-wrapper {
-        position: relative;
-        display: inline-block;
-    }
+/* Wrapper for logo + tracking */
+.logo-wrapper {
+  /* position: relative; */
+  display: inline-block;
+}
 
-    /* Logo container with rounded corners */
-    .logo-container {
-        position: relative;
-        display: inline-block;
-        width: 200px; /* Match SVG width */
-        border-radius: 12px; /* Match your SVG’s corner radius */
-        overflow: hidden; /* Clip effect to rounded bounds */
-    }
+/* Logo container with rounded corners */
+.logo-container {
+  position: relative;
+  display: inline-block;
+  width: 200px; /* Match SVG width */
+  border-radius: 12px; /* Match your SVG’s corner radius */
+  overflow: hidden; /* Clip effect to rounded bounds */
+}
 
-    /* SVG logo */
-    .logo-svg {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
+/* SVG logo */
+.logo-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-    /* Invert effect (now sharper) */
-    .invert-effect {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        background: radial-gradient(
-            circle at center, 
-            rgba(255, 255, 255, 1) 0%,    /* Full inversion in center */
-            rgba(255, 255, 255, 0.8) 80%,  /* Start fading here */
-            rgba(255, 255, 255, 0) 90%     /* Fully transparent at edge */
-        );
-        mix-blend-mode: difference;
-        pointer-events: none;
-        border-radius: 50%;
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        transition: opacity 0.25s ease;
-    }
+/* Invert effect (now sharper) */
+.invert-effect {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(
+      circle at center, 
+      rgba(255, 255, 255, 1) 0%,    /* Full inversion in center */
+      rgba(255, 255, 255, 0.8) 80%,  /* Start fading here */
+      rgba(255, 255, 255, 0) 90%     /* Fully transparent at edge */
+  );
+  mix-blend-mode: difference;
+  pointer-events: none;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
 
-    /* Expanded tracking area (sibling of logo-container) */
-    .tracking-area {
-        position: absolute;
-        top: -60px;
-        left: -60px;
-        right: -60px;
-        bottom: 180px;
-        z-index: 2;
-        /* Debug: Uncomment to see tracking area */
-        /* background: rgba(255, 0, 0, 0.1); */
-    }
+.tracking-area {
+  --track-margin: 60px;
+  position: absolute;
+  height: calc(114px + var(--track-margin));
+  width: calc(200px + var(--track-margin));
+  top: calc(var(--track-margin) / -2);
+  left: calc(var(--track-margin) / -2);
+  pointer-events: auto;
+  /* Debug: Uncomment to see clickable area */
+  background: rgba(0, 255, 0, 0.2);
+}
+    
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
@@ -66,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-title {
-  margin:0 0 5px;
+  margin:15px 0 0 0;
 }
 
 p, ul, ol, table, pre, dl {
@@ -90,10 +91,26 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#0022B4;
-  font-weight:400;
+  /* color:#0022B4; */
+  color: #57ba86;
+  font-weight:600;
   text-decoration:none;
+  transition: text-decoration 0.2s;
+  display:inline-block;
 }
+a::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
 
 a small {
   font-size:11px;

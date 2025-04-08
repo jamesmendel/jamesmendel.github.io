@@ -20,18 +20,21 @@
   </div>
   <!-- Tracking area (unclipped) -->
   <div class="tracking-area"></div>
-  
+</div> 
   
 <script>
         const logoContainer = document.querySelector('.logo-container');
         const effect = document.querySelector('.invert-effect');
         const trackingArea = document.querySelector('.tracking-area');
 
+        const logoRect = logoContainer.getBoundingClientRect();
+
+
+
         // Track mouse position
         trackingArea.addEventListener('mousemove', (e) => {
-            const rect = logoContainer.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
+            const x = e.clientX - logoRect.left;
+            const y = e.clientY - logoRect.top;
             
             effect.style.left = `${x}px`;
             effect.style.top = `${y}px`;
@@ -41,13 +44,13 @@
         trackingArea.addEventListener('mouseleave', () => {
             effect.style.opacity = '0';
         });
-        
+
         // Optional: Smooth movement with requestAnimationFrame
         let animate = false;
         let targetX = 0, targetY = 0;
         
         trackingArea.addEventListener('mousemove', (e) => {
-            const rect = container.getBoundingClientRect();
+            const rect = logoContainer.getBoundingClientRect();
             targetX = e.clientX - rect.left;
             targetY = e.clientY - rect.top;
             if (!animate) {
@@ -63,7 +66,7 @@
         }
 </script>
 
-
+<br>
 <h1 class="site-title">{{ site.title }}</h1>
 <h4>{{ site.subtitle }}</h4>
   <!-- <img src="{{ site.baseurl }}/images/James-Mendel.png" alt="James Mendel" style="border-radius: 7px; width:175px;" > -->
